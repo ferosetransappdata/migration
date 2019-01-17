@@ -1,3 +1,7 @@
+create user SCOTT identified by manager default tablespace users quota unlimited on users;
+grant create session to SCOTT;
+
+
 CREATE TABLE "SCOTT"."DEPT" 
    (	"DEPTNO" NUMBER(2,0), 
 	"DNAME" VARCHAR2(14 BYTE), 
